@@ -1,0 +1,53 @@
+{
+  "name": "pragmasoft-site-static",
+  "version": "2022.6.1",
+  "description": "Pragmasoft static site",
+  "main": "build/index.html",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy --incremental",
+    "prettier": "prettier --write src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pragmasoft-ukraine/pragmasoft-site-static.git"
+  },
+  "keywords": [
+    "Pragmasoft",
+    "Ukraine",
+    "Kharkiv",
+    "IT",
+    "software",
+    "development",
+    "web",
+    "site",
+    "eleventy",
+    "11ty",
+    "tailwindcss"
+  ],
+  "author": {
+    "name": "Dmytro V. Zemnytskyi",
+    "email": "pragmasoft@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pragmasoft-ukraine/pragmasoft-site-static/issues"
+  },
+  "homepage": "https://github.com/pragmasoft-ukraine/pragmasoft-site-static#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-img": "^2.0.1",
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.12",
+    "eleventy-plugin-postcss": "^1.0.4",
+    "htmlnano": "^2.0.2",
+    "postcss": "^8.4.14",
+    "postcss-hash": "^3.0.0",
+    "posthtml": "^0.16.6",
+    "posthtml-hash": "^1.2.2",
+    "posthtml-load-config": "^2.0.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "tailwindcss": "^3.1.4"
+  }
+}
