@@ -1,0 +1,13 @@
+@import './roboto.css';
+@import './roboto-condensed.css';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  main a[href] {
+    @apply text-emerald-400;
+    @apply underline;
+  }
+}

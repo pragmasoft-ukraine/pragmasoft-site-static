@@ -4,64 +4,32 @@ title: Pragmasoft
 description: Pragmasoft static site
 ---
 
-{% img "./static/images/kite.svg" "svg" %}
+{% include 'hero.html' %}
 
-# 11ty Nostrils
+# About us
 
-A starter config for <a href="https://github.com/11ty/eleventy">Eleventy</a> with pipelines for Typescript and PostCSS.
+We're comfortably small (16 persons) 18 years old team of smart and experienced developers in Kharkiv, Ukraine. We're working on interesting and challenging projects in the area of data analysis and visualizations, cloud based and distributed applications, mobile and rich web clients. We're looking to expand our team with active and smart young members, who likes to work on challenging tasks and modern technology stacks.
 
-## Features
+# Projects
 
-- Typescript bundling via <a href="https://swc.rs/">swc</a>
-- Transforming CSS imports to a single file
-- Autoprefixing via postcss-preset-env
-- Minifying CSS via cssnano
-- Minifying HTML via html-minifier
-- Shortcode for generating IMG and PICTURE elements via <a href="https://github.com/11ty/eleventy-img">eleventy-img</a> plugin
+TODO
 
-## What's missing
+# Our team
 
-- No SASS compilation
-- No linting or typechecking
-- No CSS framework
-- No JavaScript framework
-- No test framework
-- No environment variables
-- No template language assumptions
-- No built-in deployment targets
+TODO
 
-## Getting started
+# Quality
 
-### 1. Clone this repo
+TODO
 
-```
-git clone https://github.com/cbergen/11ty-nostrils.git my-project
-```
+# <a name='vacancies'>Vacancies</a>
 
-### 2. Navigate to directory
+TODO
 
-```
-cd my-project
-```
+# <a name='contacts'>Contact us</a>
 
-### 3. Install node dependencies
-
-```
-npm install
-```
-
-### 4. Start a dev server
-
-Changes to Eleventy content, Typescript/JavaScript, and CSS all trigger automatic updates in the browser.
-
-```
-npm run dev
-```
-
-### 5. Build for production
-
-The final build is output to the "build" directory.
-
-```
-npm run build
-```
+[Email](mailto:info@pragmasoft.com.ua)
+[Telegram](https://t.me/pragmasoft)
+[Linked In](https://www.linkedin.com/company/pragmasoft-ukraine/)
+[Facebook](https://www.facebook.com/pages/Pragmasoft/340275132655051)
+[DOU](https://jobs.dou.ua/companies/pragmasoft/)

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark font-roboto text-base md:text-lg lg:text-xl">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,9 +7,15 @@
 
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}" />
-    <link rel="stylesheet" href="/css/styles.[hash].css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body>
-    <section class="container bg-gray-100 px-4">{{ content }}</section>
+  <body class="bg-zinc-100">
+    {% include 'navbar.html' %}
+    <main class="container h-screen overflow-x-hidden px-2">{{ content }}</main>
+    <footer class="dark:bg-zinc-700 dark:text-white">
+      <div class="container text-xs">
+        © {{thisYear}} Pragmasoft. All rights reserved
+      </div>
+    </footer>
   </body>
 </html>
