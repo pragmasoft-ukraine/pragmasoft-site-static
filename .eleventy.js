@@ -20,7 +20,7 @@ module.exports = function (config) {
     templateFormats: ['md', 'html', 'js', 'njk', 'liquid'],
     dir: {
       input: 'src',
-      output: 'build',
+      output: 'docs',
     },
   };
 };

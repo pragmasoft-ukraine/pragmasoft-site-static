@@ -1,6 +1,13 @@
 const Image = require('@11ty/eleventy-img');
 
-module.exports = async function (url, formats = '', widths = '', sizes = '', cls = '', alt = '') {
+module.exports = async function (
+  url,
+  formats = '',
+  widths = '',
+  sizes = '',
+  cls = '',
+  alt = ''
+) {
   // formats must be an array
   formats = formats.split(',');
 
@@ -16,7 +23,7 @@ module.exports = async function (url, formats = '', widths = '', sizes = '', cls
     widths,
     formats,
     urlPath: '/images/',
-    outputDir: './build/images/',
+    outputDir: './docs/images/',
     useCache: false,
     sharpJpegOptions: {
       quality: 85,

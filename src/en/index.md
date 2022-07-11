@@ -2,31 +2,32 @@
 layout: layout.html
 title: Pragmasoft
 description: Pragmasoft static site
+years: 18
 ---
 
-{% include 'hero.html' %}
+{% include 'en/hero.html' %}
 
-# About us
+# <a id="about">About us</a>
 
 We're comfortably small (16 persons) 18 years old team of smart and experienced developers in Kharkiv, Ukraine. We're working on interesting and challenging projects in the area of data analysis and visualizations, cloud based and distributed applications, mobile and rich web clients. We're looking to expand our team with active and smart young members, who likes to work on challenging tasks and modern technology stacks.
 
-# Projects
+# <a id="projects">Projects</a>
 
 TODO
 
-# Our team
+# <a id="team">Our team</a>
 
 TODO
 
-# Quality
+# <a id="quality">Quality</a>
 
 TODO
 
-# <a name='vacancies'>Vacancies</a>
+# <a id='vacancies'>Vacancies</a>
 
 TODO
 
-# <a name='contacts'>Contact us</a>
+# <a id='contacts'>Contact us</a>
 
 [Email](mailto:info@pragmasoft.com.ua)
 [Telegram](https://t.me/pragmasoft)

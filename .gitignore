@@ -1,15 +1,8 @@
-# Buld directory
-build/
-
 # Dependency directories
 node_modules/
 
 # Optional npm cache directory
 .npm
-
-# temp
-.temp
-.postcss-hash.json
 
 # dotenv environment variables file
 .env
